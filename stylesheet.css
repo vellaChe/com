@@ -1,0 +1,160 @@
+@font-face {
+    font-family: minionpro-regular;
+    src: url(minionPro-regular.otf);
+}
+
+@font-face {
+    font-family: minionpro-regular;
+    src: url(minionPro-regular.otf);
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: alcubierre;
+    src: url(alcubierre.otf);
+}
+
+@font-face {
+    font-family: alcubierre;
+    src: url(alcubierre.otf);
+    font-weight: bold;
+}
+
+
+
+.BG {
+	position: absolute;
+	width: 100%;
+	height: 900px;
+}
+
+.Numbers {
+	font-family:alcubierre;
+	justify-content: space-around;
+	flex-direction: column; 
+}
+
+.Card {
+	position: fixed;
+	font-family:alcubierre;
+	letter-spacing: 4px;
+}
+
+.Site_Name {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family:alcubierre;
+	letter-spacing: 5px;
+	font-size: 10px;
+	transform: rotate(-90deg);
+}
+
+
+
+#Card_Warp {
+	display: flex;
+	justify-content: flex-end;
+}
+
+#Site_Name_Warp {	
+}
+
+#Number_Warp {
+
+}
+
+#Hero {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	font-size: 90px;
+	letter-spacing: 50px;
+}
+
+#Logo {
+	position: fixed;
+	letter-spacing: 15px;
+	font-size: 28px;
+}
+
+#BG_Home {
+	z-index: 1;
+	background: black;
+
+}
+
+#BG_About {
+	margin-top: 900px;
+	z-index: 2;
+	background: black;
+}
+
+#BG_Portfolio {
+	margin-top: 1800px;
+	z-index: 3;
+	background: black;
+}
+
+#BG_CV {
+	margin-top: 2700px;
+	z-index: 4;
+	background: black;
+} 
+
+#BG_Contacts {
+	margin-top: 3600px;
+	z-index: 5;
+	background: black;
+}
+
+#Site_Name {
+	position: absolute;
+}
+
+#Name {
+
+}
+
+#Short_Name {
+	margin-top: 32px;
+}
+
+#Position {
+	margin-top: 47px;
+}
+
+#Location {
+	margin-top: 63px;
+}
+
+#V_1px_line {
+
+}
+
+#H_1px_line {
+
+}
+
+
+h1 {
+	z-index: 100;
+	position:relative;
+	font-family:alcubierre;
+	color: white;
+}
+
+h2 {
+	z-index: 101;
+	position:relative;
+	font-family:alcubierre;
+	color: white;
+}
+
+p {
+	z-index: 200;
+	font-family: minionPro-regular;
+	position:relative;
+	color: white;
+}
